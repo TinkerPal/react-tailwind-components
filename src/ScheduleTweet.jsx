@@ -33,11 +33,11 @@ export default function ScheduleTweet() {
         <div className="pt-20 space-y-2 ">
           <div className="flex flex-row space-x-4 ">
             <div className="font-bold text-white border-2 rounded-md px-3 border-cyan-700 bg-cyan-700 hover:bg-opacity-90 shadow-sm hover:shadow-lg transition hover:-translate-y-0.5 duration-150">
-              Manual Content
+              Manual
             </div>
 
             <div className="font-bold text-black border-2 rounded-md px-3 border-gray-300 hover:bg-opacity-90 shadow-sm hover:shadow-lg  transition hover:-translate-y-0.5 duration-150">
-              AI Generated Content
+              AI Generated
             </div>
           </div>
           <div className="">
