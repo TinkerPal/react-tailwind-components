@@ -18,7 +18,7 @@ export default function ScheduleTweet() {
         <div className=" mt-4 p-2 rounded-xl   flex flex-row space-x-8 border-4  border-cyan-700   items-center justify-center">
           <img src={Banner} alt="" className="w-1/5 " />
           <div className="items-center justify-center">
-            <div className=" font-mono text-3xl text-center  font-bold  flex  flex-wrap ">
+            <div className=" font-mono  text-xl md:text-3xl text-center  font-bold  flex  flex-wrap ">
               Automatically Generate, Schedule, & Manage Contents with the power
               AI
             </div>
@@ -56,7 +56,7 @@ export default function ScheduleTweet() {
           <div>
             <p className="font-bold text-lg my-4">Schedule post:</p>
             <div className="flex space-x-2">
-              <div>
+              <div className="mb-8">
                 <p className="font-bold ">Date</p>
                 <input
                   type="date"
