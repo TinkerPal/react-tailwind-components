@@ -15,7 +15,7 @@ export default function ScheduleTweet() {
       {/* Inner container  */}
       <div className="max-w-4xl mx-12 space-y-4 mt-12">
         {/* Banner  */}
-        <div className=" mt-4 p-2 rounded-xl   flex flex-row space-x-8 border-4  border-cyan-700   items-center justify-center">
+        <div className=" mt-4 p-2 rounded-xl   flex flex-col md:flex-row space-x-8 border-4  border-cyan-700   items-center justify-center">
           <img src={Banner} alt="" className="w-1/5 " />
           <div className="items-center justify-center">
             <div className=" font-mono  text-xl md:text-3xl text-center  font-bold  flex  flex-wrap ">
@@ -33,7 +33,7 @@ export default function ScheduleTweet() {
         <div className="pt-20 space-y-2 ">
           <div className="flex flex-row space-x-4 ">
             <div className="font-bold text-white border-2 rounded-md px-3 border-cyan-700 bg-cyan-700 hover:bg-opacity-90 shadow-sm hover:shadow-lg transition hover:-translate-y-0.5 duration-150">
-              Manual
+              Manual Content
             </div>
 
             <div className="font-bold text-black border-2 rounded-md px-3 border-gray-300 hover:bg-opacity-90 shadow-sm hover:shadow-lg  transition hover:-translate-y-0.5 duration-150">
