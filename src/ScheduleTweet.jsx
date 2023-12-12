@@ -55,11 +55,12 @@ export default function ScheduleTweet() {
 
           <div>
             <p className="font-bold text-lg my-4">Schedule post:</p>
-            <div className="flex space-x-2">
+            <div className="flex space-x-4">
               <div className="mb-8">
                 <p className="font-bold ">Date</p>
                 <input
                   type="date"
+                  className="bg-white py-1 px-2 rounded-md"
                   id="scheduleDate"
                   name="scheduleDate"
                   min={new Date().toISOString().split("T")[0]} // Sets today as the minimum date
@@ -72,7 +73,12 @@ export default function ScheduleTweet() {
               </div>
               <div>
                 <p>Time</p>
-                <input type="time" id="scheduleTime" name="scheduleTime" />
+                <input
+                  type="time"
+                  className="bg-white py-1 px-2 rounded-md"
+                  id="scheduleTime"
+                  name="scheduleTime"
+                />
               </div>
             </div>
           </div>
