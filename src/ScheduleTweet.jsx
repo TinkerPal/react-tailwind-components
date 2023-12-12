@@ -19,8 +19,8 @@ export default function ScheduleTweet() {
           <img src={Banner} alt="" className="w-1/2 md:w-1/5 " />
           <div className="items-center justify-center">
             <div className=" font-mono  text-xl md:text-3xl text-center  font-bold  flex  flex-wrap ">
-              Automatically Generate, Schedule, & Manage Contents with the power
-              AI
+              AI-Powered Content Management System: Generate, Schedule, & Manage
+              Content Programmatically
             </div>
             <div className="text-black hidden md:block">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
