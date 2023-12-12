@@ -9,6 +9,7 @@ import LoginModalAudaxious from "./LoginModalAudaxious";
 import LoadingAudaXious from "./LoadingAudaXious";
 import InfoForm from "./InfoForm";
 import ScheduleTweet from "./ScheduleTweet";
+import Banner from "./Banner";
 
 function App() {
   return (
