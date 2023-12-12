@@ -44,7 +44,7 @@ export default function ScheduleTweet() {
             <textarea
               name=""
               id=""
-              className=" w-full h-[300px] md:h-[100px] resize-none rounded-lg p-1 placeholder:text-center placeholder:text-5xl mb-4  "
+              className=" w-full h-[220px] md:h-[100px] resize-none rounded-lg p-1 placeholder:text-center placeholder:text-5xl mb-4  "
               placeholder="Enter your content here"
             />
           </div>
