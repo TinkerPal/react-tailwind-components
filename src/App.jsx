@@ -8,13 +8,12 @@ import LoginModal from "./LoginModal";
 import LoginModalAudaxious from "./LoginModalAudaxious";
 import LoadingAudaXious from "./LoadingAudaXious";
 import InfoForm from "./InfoForm";
+import ScheduleTweet from "./ScheduleTweet";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <InfoForm />
+      <ScheduleTweet />
     </>
   );
 }
