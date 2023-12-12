@@ -19,11 +19,11 @@ export default function ScheduleTweet() {
 
         <div className="pt-20 space-y-2 ">
           <div className="flex flex-row justify-between space-x-1 md:justify-normal">
-            <button className="w-full md:w-auto flex justify-center items-center py-1 space-x-3 font-sans font-bold text-white rounded-md  px-4 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
+            <button className="w-full md:w-auto flex justify-center items-center py-1 space-x-2 font-sans font-bold text-white rounded-md  px-2 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
               <img src={manual} alt="" className="w-7 " />
               <span>Manual Content</span>
             </button>
-            <button className="w-full md:w-auto flex justify-center items-center py-1  space-x-3 font-sans font-bold text-black rounded-md  px-4  shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border-2 transition hover:-translate-y-0.5 duration-150">
+            <button className="w-full md:w-auto flex justify-center items-center py-1  space-x-2 font-sans font-bold text-black rounded-md   shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border-2 transition hover:-translate-y-0.5 duration-150">
               <img src={AI} alt="" className="w-7 " />
               <span>AI Generated</span>
             </button>
