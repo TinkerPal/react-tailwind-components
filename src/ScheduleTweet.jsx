@@ -22,7 +22,7 @@ export default function ScheduleTweet() {
               Automatically Generate, Schedule, & Manage Contents with the power
               AI
             </div>
-            <div className="text-black">
+            <div className="text-black hidden md:block">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
               voluptatem placeat illum quasi, eveniet non qui sapiente delectus
               ea alias eius amet assumenda, veniam soluta. Laboriosam labore
