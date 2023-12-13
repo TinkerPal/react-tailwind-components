@@ -20,7 +20,7 @@ export default function ConnectSocials() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center md:justify-start  ">
-            <div className="w-28 h-28 flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
+            <div className="w-32 md:w-28 h-32 md:h-28 flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
               <div>
                 <img src={twitter} alt="" className="w-14  " />
               </div>
