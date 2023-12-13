@@ -19,7 +19,7 @@ export default function ConnectSocials() {
             management and AI generator tools
           </p>
 
-          <div className="flex flex-wrap gap-4   ">
+          <div className="flex flex-wrap gap-4 justify-center md:justify-start  ">
             <div className="w-28 h-28 flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
               <div>
                 <img src={twitter} alt="" className="w-14  " />
