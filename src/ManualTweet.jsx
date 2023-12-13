@@ -17,7 +17,7 @@ export default function ManualTweet() {
 
       <div>
         <p className="font-bold text-lg my-4">Schedule post:</p>
-        <div className="flex space-x-4">
+        {/* <div className="flex space-x-4">
           <div className="mb-8">
             <p className="font-bold ">Date</p>
             <input
@@ -42,7 +42,7 @@ export default function ManualTweet() {
               name="scheduleTime"
             />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="pb-6 ">
