@@ -67,8 +67,8 @@ export default function GeneratedTweet() {
         <GeneratedItem tweets={tweets} />
       </div>
 
-      <div className="pb-6 flex ">
-        <button className="w-full md:w-auto flex justify-center items-center p-2 space-x-2 font-sans font-bold text-white rounded-md  px-6 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
+      <div className="pb-6 flex  ">
+        <button className="w-[600px] md:w-auto flex justify-center items-center p-2 space-x-2 font-sans font-bold text-white rounded-md  px-6 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
           <img src={schedule} alt="" className="w-9 " />
           <span>Schedule</span>
         </button>
