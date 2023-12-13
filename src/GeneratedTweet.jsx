@@ -16,7 +16,7 @@ const tweets = {
 export default function GeneratedTweet() {
   return (
     <>
-      {/* <div className="pt-8 ">
+      <div className="pt-8 ">
         <div className="font-bold text-lg mb-2 ">How many Iterations</div>
 
         <select
@@ -31,9 +31,9 @@ export default function GeneratedTweet() {
             </option>
           ))}
         </select>
-      </div> */}
+      </div>
 
-      <div className="">
+      {/* <div className="">
         <textarea
           name=""
           id=""
@@ -72,7 +72,7 @@ export default function GeneratedTweet() {
           <img src={schedule} alt="" className="w-9 " />
           <span>Schedule</span>
         </button>
-      </div>
+      </div> */}
     </>
   );
 }
