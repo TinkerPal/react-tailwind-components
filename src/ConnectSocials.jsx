@@ -26,19 +26,19 @@ export default function ConnectSocials() {
               </div>
               <div> Twitter</div>
             </div>
-            <div className="w-28 h-28 flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
+            <div className="w-32 md:w-28 h-32 md:h-28  flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
               <div>
                 <img src={facebook} alt="" className="w-14  " />
               </div>
               <div> Facebook</div>
             </div>
-            <div className="w-28 h-28 flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
+            <div className="w-32 md:w-28 h-32 md:h-28  flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
               <div>
                 <img src={discord} alt="" className="w-14  " />
               </div>
               <div> Discord</div>
             </div>
-            <div className="w-28 h-28 flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
+            <div className="w-32 md:w-28 h-32 md:h-28  flex flex-col space-y-2 bg-cyan-100 border-2  border-cyan-700 rounded-2xl justify-center items-center text-center font-mono font-bold text-xl">
               <div>
                 <img src={instagram} alt="" className="w-14  " />
               </div>
