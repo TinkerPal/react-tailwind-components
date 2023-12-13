@@ -13,7 +13,7 @@ export default function ScheduleTweet() {
   return (
     <div className="items-center  flex flex-col justify-start w-screen   bg-slate-100">
       {/* Inner container  */}
-      <div className="max-w-4xl mx-12 space-y-4 mt-12">
+      <div className="max-w-4xl mx-6 space-y-4 mt-12">
         <Banner />
 
         <div className="pt-20 space-y-2 ">
