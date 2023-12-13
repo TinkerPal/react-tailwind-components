@@ -45,7 +45,7 @@ export default function ScheduleTweet() {
               <span>AI Generated</span>
             </button>
           </div>
-          {isManual ? <GeneratedTweet /> : <ManualTweet />}
+          {isManual ? <ManualTweet /> : <GeneratedTweet />}
         </div>
       </div>
     </div>
