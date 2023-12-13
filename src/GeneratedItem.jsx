@@ -29,7 +29,7 @@ export default function GeneratedItem({ tweets }) {
                   <p className="font-bold ">Date</p>
                   <input
                     type="date"
-                    className="bg-white py-1 px-2 rounded-md"
+                    className="bg-white py-1 px-1 rounded-md"
                     id="scheduleDate"
                     name="scheduleDate"
                     min={new Date().toISOString().split("T")[0]} // Sets today as the minimum date
@@ -44,7 +44,7 @@ export default function GeneratedItem({ tweets }) {
                   <p className="font-bold ">Time</p>
                   <input
                     type="time"
-                    className="bg-white py-1 px-2 rounded-md"
+                    className="bg-white py-1 px-1 rounded-md"
                     id="scheduleTime"
                     name="scheduleTime"
                   />
