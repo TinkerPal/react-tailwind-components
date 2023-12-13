@@ -16,14 +16,6 @@ const tweets = {
 export default function GeneratedTweet() {
   return (
     <>
-      <div className="pt-8">
-        <textarea
-          name=""
-          id=""
-          className=" w-full h-[220px] md:h-[100px] resize-none rounded-lg p-1 placeholder:text-center placeholder:text-2xl md:placeholder:text-5xl mb-4  "
-          placeholder="Enter your content here"
-        />
-      </div>
       <div className="pb-2 space-y-2 mb-10">
         <div className=" font-bold text-lg">Upload file</div>
         <input type="file" id="image" name="image" accept="image/*" />
