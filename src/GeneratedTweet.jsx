@@ -16,7 +16,8 @@ const tweets = {
 export default function GeneratedTweet() {
   return (
     <>
-      <div className="pt-8 ">
+      <div className="font-bold text-lg mb-2 ">How many Iterations</div>
+      {/* <div className="pt-8 ">
         <div className="font-bold text-lg mb-2 ">How many Iterations</div>
 
         <select
@@ -33,7 +34,7 @@ export default function GeneratedTweet() {
         </select>
       </div>
 
-      {/* <div className="">
+      <div className="">
         <textarea
           name=""
           id=""
