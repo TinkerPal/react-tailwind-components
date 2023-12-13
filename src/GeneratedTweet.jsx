@@ -1,3 +1,4 @@
+import GeneratedItem from "./GeneratedItem";
 import schedule from "./assets/Schedule.svg";
 
 const tweets = {
