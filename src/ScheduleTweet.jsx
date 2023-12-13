@@ -41,8 +41,12 @@ export default function ScheduleTweet() {
                 isManual && "border-2"
               } shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150`}
             >
-              <img src={isManual ? AIBlack : AIWhite} alt="" className="w-7 " />
-              <span>AI Generated</span>
+              <img
+                src={isManual ? manualWhite : manualBlack}
+                alt=""
+                className="w-7 "
+              />
+              <span>Manual Content</span>
             </button>
           </div>
           {isManual ? <ManualTweet /> : <GeneratedTweet />}
