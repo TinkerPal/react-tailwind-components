@@ -2,7 +2,7 @@ import schedule from "./assets/Schedule.svg";
 export default function ManualTweet() {
   return (
     <>
-      <div className="">
+      <div className="pt-8">
         <textarea
           name=""
           id=""
