@@ -62,10 +62,10 @@ export default function GeneratedTweet() {
         </button>
       </div>
 
-      <div className="pb-2 space-y-2 ">
+      {/* <div className="pb-2 space-y-2 ">
         <div className="font-mono  text-3xl mt-10">Generated Contents</div>
-        {/* <GeneratedItem tweets={tweets} /> */}
-      </div>
+        <GeneratedItem tweets={tweets} />
+      </div> */}
 
       <div className="pb-6 ">
         <button className="w-full md:w-auto flex justify-center items-center p-2 space-x-2 font-sans font-bold text-white rounded-md  px-6 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
