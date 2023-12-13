@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "./assets/Logo.svg";
 
 const TopNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,10 @@ const TopNavbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <h1 className="text-black font-semibold text-lg">Logo</h1>
+            <h1 className="text-black font-semibold text-lg">
+              {" "}
+              <img src={Logo} alt="" className="w-32 " />
+            </h1>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#" className="text-black hover:opacity-70">
