@@ -17,7 +17,7 @@ export default function GeneratedTweet() {
   return (
     <>
       <div className="font-bold text-lg mb-2 ">How many Iterations</div>
-      {/* <div className="pt-8 ">
+      <div className="pt-8 ">
         <div className="font-bold text-lg mb-2 ">How many Iterations</div>
 
         <select
@@ -73,7 +73,7 @@ export default function GeneratedTweet() {
           <img src={schedule} alt="" className="w-9 " />
           <span>Schedule</span>
         </button>
-      </div> */}
+      </div>
     </>
   );
 }
