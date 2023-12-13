@@ -64,7 +64,7 @@ export default function GeneratedTweet() {
 
       <div className="pb-2 space-y-2 ">
         <div className="font-mono  text-3xl mt-10">Generated Contents</div>
-        <GeneratedItem tweets={tweets} />
+        {/* <GeneratedItem tweets={tweets} /> */}
       </div>
 
       <div className="pb-6 ">
