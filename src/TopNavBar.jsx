@@ -18,7 +18,7 @@ const TopNavbar = () => {
               <img src={Logo} alt="" className="w-32 " />
             </h1>
           </div>
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6">
             <a href="#" className="text-black hover:opacity-70">
               Content Management
             </a>
@@ -28,6 +28,9 @@ const TopNavbar = () => {
             <a href="#" className="text-black  hover:opacity-70">
               Settings
             </a>
+            <div className="w-36 justify-center items-center text-end font-mono text-xl font-bold text-cyan-700 ">
+              Shola Otitoju
+            </div>
             <a href="#" className="text-black  hover:opacity-70">
               Log Out
             </a>
@@ -77,6 +80,9 @@ const TopNavbar = () => {
             <a href="#" className="block text-black py-2">
               Log Out
             </a>
+            <div className="w-36 justify-center items-center text-start font-mono text-xl font-bold text-cyan-700 ">
+              Shola Otitoju
+            </div>
           </div>
         )}
       </div>

@@ -10,11 +10,12 @@ import LoadingAudaXious from "./LoadingAudaXious";
 import InfoForm from "./InfoForm";
 import ScheduleTweet from "./ScheduleTweet";
 import Banner from "./Banner";
+import ConnectSocials from "./ConnectSocials";
 
 function App() {
   return (
     <>
-      <ScheduleTweet />
+      <ConnectSocials />
     </>
   );
 }
